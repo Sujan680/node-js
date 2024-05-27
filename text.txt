@@ -3,3 +3,14 @@ Hey Bro, I am Sujan27
 Hi bro i am 27 years old.I am sujan
 I am sujanI am sujanI am sujanI am sujanI am sujanI am sujan
 I am sujan
+
+
+
+Node js working :
+
+Client makes request---------> Server i.e. Node js and Node js will proceed that request to the Event Queue where all the request will be stored 
+one after other ...then will be tranfered to Event Loop for processing where it will check whether it is synchronous(blocking operation) or asynchronous(non blocking operation)
+..so if it is non blocking then event loop will process the request and send the response back to the client ...but the 
+blocking operation will be sent to the Thread Pool for processing the blocking operations...thread pool have by default 4 threads or worker in
+simple terms which will process that according to their request and send back the response to Event loop and which will finally be responded to 
+client .
