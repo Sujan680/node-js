@@ -12,7 +12,7 @@ const myServer = http.createServer((req,res)=> {
             case"/about":
             res.end("This is about page.")
             break
-            res.end("404 found");
+            
         }
     })
    
